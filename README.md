@@ -2,7 +2,7 @@
 
 ### 사용 라이브러리
 
-`React`, `Axios`, `styled-components`
+`React`, `Axios`, `styled-components`, `react-router-dom`
 
 ---
 
@@ -75,3 +75,11 @@
 -   NewsList에도 선택된 category 값을 전달해주어야함
     -   API호출시 쿼리로 전달하기 위해서 값 전달
     -   category가 all일 경우에는 공백, 그 외의 경우에는 카테고리 이름을 쿼리로 전달
+
+## 라우터 설정하기
+
+-   현재 선택된 category 값을 URL 파라미터를 통해 사용할 것
+    -   현재 선택된 카테고리 값, onSelect 함수를 전달할 필요가 없어짐
+-   App 파일에서 Route 설정
+    -   category URL이 없는 경우는 전체 카테고리를 선택한 것으로 간주
+-   카테고리 파일에 styled-components 의 css로 작성했던걸 NavLink로 대체
