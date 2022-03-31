@@ -54,3 +54,14 @@
     -   로딩중일 때는 loading 값이 true
     -   요청이 끝나면 loading 값이 false
 -   대기중일때, article 값이 설정되지 않았을 때의 return값 설정하기
+
+## 카테고리 기능 구현하기
+
+**카테고리 종류**
+
+-   business (비즈니스)
+-   science (과학)
+-   entertainment (연예)
+-   sports (스포츠)
+-   health (건강)
+-   technology (기술)
