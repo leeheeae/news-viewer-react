@@ -74,3 +74,4 @@
 -   Categories에서 props로 전달받은 onSelect를 각 Category 컴포넌트의 onClick으로 설정하고, 현재 선택된 카테고리 값에 따라 스타일 적용
 -   NewsList에도 선택된 category 값을 전달해주어야함
     -   API호출시 쿼리로 전달하기 위해서 값 전달
+    -   category가 all일 경우에는 공백, 그 외의 경우에는 카테고리 이름을 쿼리로 전달
