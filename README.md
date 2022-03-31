@@ -65,3 +65,12 @@
 -   sports (스포츠)
 -   health (건강)
 -   technology (기술)
+
+**기능 구현**
+
+-   App에서 category 상태를 useState로 관리
+    -   category 값을 업데이트하는 함수 생성
+    -   선택된 값이 props로 전달됨
+-   Categories에서 props로 전달받은 onSelect를 각 Category 컴포넌트의 onClick으로 설정하고, 현재 선택된 카테고리 값에 따라 스타일 적용
+-   NewsList에도 선택된 category 값을 전달해주어야함
+    -   API호출시 쿼리로 전달하기 위해서 값 전달
