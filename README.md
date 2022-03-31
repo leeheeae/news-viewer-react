@@ -42,3 +42,15 @@
 -   description: 내용
 -   url: 링크
 -   urlToImage: 뉴스 이미지
+
+## 데이터 연동하기
+
+> axios를 이용하여 뉴스 리스트 데이터 연동하기
+
+-   `useEffect`를 이용하여 컴포넌트가 렌더링되는 시점에 API 호출하기
+-   async/await을 사용하기 위해 useEffect 함수 안에 또 다른 함수 만들어주기
+    -   useEffect에서 반환해야 하는 값은 뒷정리 함수이기 때문
+-   loading이라는 상태로 API 요청이 대기 중인지 판별
+    -   로딩중일 때는 loading 값이 true
+    -   요청이 끝나면 loading 값이 false
+-   대기중일때, article 값이 설정되지 않았을 때의 return값 설정하기
