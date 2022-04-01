@@ -83,3 +83,9 @@
 -   App 파일에서 Route 설정
     -   category URL이 없는 경우는 전체 카테고리를 선택한 것으로 간주
 -   카테고리 파일에 styled-components 의 css로 작성했던걸 NavLink로 대체
+
+## usePromise 커스텀 Hook 만들기
+
+-   src/lib 디렉토리 안에 파일 생성
+-   loading, resolved, error에 대한 상태 생성 후 변경된 값 리턴
+-   NewsList 파일에 import하여 사용
